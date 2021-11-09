@@ -32,7 +32,5 @@ public class HotelRepository {
 		String sql = "SELECT * FROM hotels ORDER BY price DESC;";
 		return template.query(sql, HOTEL_ROW_MAPPER);
 	}
-	
-	
 
 }
